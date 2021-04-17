@@ -1,0 +1,195 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.12);
+    
+}
+.nav_ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav_ul > li {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav_img{
+    height: 80px;
+    
+}
+.nav_ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+.nav_ul > li > a:hover{
+
+    border-bottom: 5px solid black;
+}
+.blog_img{
+    height: 500px;
+    width:100%;
+}
+.containeer{
+    margin-top: 10px;
+}
+.blogging_img{
+    height: 250px;
+    width: 400px;
+}
+.blog_images{
+    display: flex;
+    flex-direction: column;
+}
+.blog_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.blog_writing{
+    width: 40%;
+}
+.blog_content{
+    margin-left: 13vw;
+    padding-top: 15px;
+    width: fit-content;
+    padding-bottom: 10px;
+    margin-right: 15vw;
+    background-color: white;
+    margin-top: 10vh;
+    box-shadow: 0 1px 3px rgba(211, 42, 42, 0.12), 0 2px 4px rgba(233, 31, 31, 0.12);
+}
+.blog_writing > h4 {
+    color: gray;
+}
+.blog_writing > p {
+   font-size: 18px;
+   font-family :Georgia, 'Times New Roman', Times, serif;
+}
+.footer_logo{
+    height: 40px;
+    margin-left: 20px;
+}
+.footer_icons{
+    display: flex;
+   
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    margin-top: 10vh;
+    align-items: center;
+    background-color: #FAEBD7;
+    box-shadow: 0 1px 3px rgba(211, 42, 42, 0.12), 0 2px 4px rgba(233, 31, 31, 0.12);
+    /* background-color: #0476B5; */
+}
+.footer_heading > h1 {
+    font-size: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer_heading{
+    margin-top: 10px;
+    color:  #0476B5;
+}
+.ending{
+    text-align: center;
+    padding: 30px;
+    background-color:#0476B5 ;
+}
+.ending > p{
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+body{
+    background-color: #ededed;
+
+}
+
+@media (max-width : 764px) {
+    .navbar{
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: white;
+        border-bottom: 1px solid lightgray;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.12);
+        
+    }
+    .nav_ul > li {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        font-size: 3px;
+        margin-left: -10px;
+        font-size: large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .nav_ul > li > a{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        font-size: 12px;
+        margin-left:1px;
+        margin-right:5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .blog_img{
+        height: 250px;
+        width: 100%;
+    }
+    .blog_content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: -0.5vh;
+        margin-left: -1vw;
+    }
+    .blog_images{
+        height: 200px;
+        width: 100%;
+    }
+    .blog_writing{
+        margin-top: 5vh;
+        width: 70%;
+    }
+    .blog_writing > h4 {
+        font-size: 15px;
+    }
+    .blog_writing > p {
+        font-size: 13px;
+    }
+    .blogging_img{
+        height: 200px;
+    }
+    .footer{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_heading > h1{
+        text-align: center;
+        font-size: 18px;
+        width: 100%;
+        /* margin-left: -10px; */
+    }
+      .footer_heading > p{
+        text-align: center;
+        font-size: 15px;
+        width: 100%;
+        /* margin-left: -30px; */
+    }
+    .footer_icons{
+        align-items: center;
+    }
+    
+}
